@@ -18,10 +18,11 @@ const Hero = () => {
           <br />I am venkatesh
         </h1>
         <p>
-          Aspiring frontend developer.I can provide clean code and pixel perfect
-          design. I can also make the websides fully responsive. A responsive
-          design makes your website accessible to all users,regardless of their
-          device.
+          As an aspiring frontend developer, I excel in delivering clean code
+          and ensuring precise implementation. My proficiency lies in creating
+          fully responsive websites, which enhance accessibility across all
+          devices. This approach ensures that users have a seamless experience
+          regardless of the device they are using.
         </p>
         <div>
           <Link to="/project" className="btn">
