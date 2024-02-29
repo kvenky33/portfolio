@@ -14,12 +14,12 @@ const AboutContent = () => {
         <div className="left-content">
           <h1>Who am I?</h1>
           <p>
-            I am an aspiring front-end developer specializing in React,
-            currently working as a trainee at AccioJob. With a solid foundation
-            in HTML, CSS, JavaScript, and ReactJS, I am eager to contribute my
-            skills and knowledge to create engaging and user-friendly web
-            applications. Through my dedication and continuous learning, I
-            strive to excel in building dynamic interfaces and delivering
+            Currently working as a web developer intern at Ressan Info Tech, I
+            am an aspiring front-end developer specializing in React. With a
+            strong foundation in HTML, CSS, JavaScript, and ReactJS, I am
+            enthusiastic about leveraging my skills to create engaging and
+            user-friendly web applications. Dedicated to continuous learning, I
+            aim to excel in building dynamic interfaces and delivering
             exceptional user experiences.
           </p>
           <Link to="/contact" className="btn ">

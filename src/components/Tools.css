@@ -18,6 +18,9 @@
   /* column-gap: 10px; */
   padding-bottom: 5rem;
 }
+.tool-heading {
+  margin-bottom: 2rem;
+}
 .skill {
   width: 50%;
   height: 70%;

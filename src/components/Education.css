@@ -4,6 +4,9 @@
 
   padding: 15px;
 }
+.work-experience h1 {
+  margin-bottom: 1rem;
+}
 .data-part {
   background-color: rgba(19, 19, 19.8);
 

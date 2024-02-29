@@ -1,6 +1,16 @@
 import React from "react";
 import "./Education.css";
 
+let workExperience = [
+  {
+    company: "REESAN Info Tech",
+    role: "Web Developer Intern",
+    duration: "01/11/2023 - present",
+    responsibility:
+      "Led the development of responsive websites, guaranteeing seamless user experiences across various devices.Utilized industry-leading frameworks and libraries such as React.js and Bootstrap to design dynamic and visually appealing web solutions.",
+  },
+];
+
 let educationData = [
   {
     degree: "Bachelor of Science",
@@ -47,41 +57,62 @@ let certificateData = [
 ];
 const Education = () => {
   return (
-    <div className="container">
-      <div className="section">
-        <h1>Education</h1>
+    <>
+      <div className="section work-experience">
+        <h1>Work Experience</h1>
 
-        {educationData.map((val) => {
+        {workExperience.map((val) => {
           return (
             <div className="data-part">
-              <h2>{val.degree}</h2>
-              <h4>{val.instituute}</h4>
-              <p>
-                {val.duration}
-                <br />
-                Course:{val.course}
-                <br />
-                CGPA/Marks: {val.marks}
-              </p>
+              <h2>{val.company}</h2>
+              <h3>{val.role}</h3>
+              <p>{val.duration}</p>
+              <p>{val.responsibility}</p>
             </div>
           );
         })}
       </div>
-      <div className="section">
-        <h1>Certificates</h1>
-        {certificateData.map((data) => {
-          return (
-            <div className="data-part">
-              <h2>{data.title} </h2>
-              <p>{data.description}</p>
-              <a href={data.link} className="view" target="_blank">
-                view
-              </a>
-            </div>
-          );
-        })}
+      <div className="container">
+        <div className="section">
+          <h1>Education</h1>
+
+          {educationData.map((val) => {
+            return (
+              <div className="data-part">
+                <h2>{val.degree}</h2>
+                <h4>{val.instituute}</h4>
+                <p>
+                  {val.duration}
+                  <br />
+                  Course:{val.course}
+                  <br />
+                  CGPA/Marks: {val.marks}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+        <div className="section">
+          <h1>Certificates</h1>
+          {certificateData.map((data) => {
+            return (
+              <div className="data-part">
+                <h2>{data.title} </h2>
+                <p>{data.description}</p>
+                <a
+                  href={data.link}
+                  className="view"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  view
+                </a>
+              </div>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
