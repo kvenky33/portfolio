@@ -4,6 +4,7 @@
   border-radius: 100px;
   margin-right: 10px;
 }
+
 .nav-logo {
   display: flex;
   align-items: center;
@@ -39,6 +40,13 @@
 .nav-menu li a:hover {
   color: #ffffff5e;
 }
+.nav-menu li a:visited {
+  border-bottom: 1px solid rgb(248, 217, 15);
+}
+.nav-menu .active-link {
+  color: rgb(248, 217, 15);
+}
+
 .hambergmenu {
   display: none;
 }

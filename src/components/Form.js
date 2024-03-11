@@ -24,7 +24,7 @@ const Form = () => {
     ) {
       axios
         .post(
-          "https://message-3c652-default-rtdb.firebaseio.com/client.json",
+          "https://sampledb-73285-default-rtdb.firebaseio.com/client.json",
           chatData
         )
         .then(() => toast.success("Your Message recorded succesfully!"));
